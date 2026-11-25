@@ -1,0 +1,17 @@
+Backline on qBraid
+Copyright 2026 qBraid
+
+This repository includes material adapted from PennyLaneAI/demos
+(https://github.com/PennyLaneAI/demos), Copyright Xanadu Quantum Technologies Inc.,
+licensed under the Apache License, Version 2.0.
+
+01_steane_ghz_cpu.ipynb is adapted from "How to use PennyLane and Backline for
+low-latency quantum error correction on GPUs and FPGAs" by Josh Izaac, Mehrdad Malek,
+Joseph Lee and Kalman Szenes (https://pennylane.ai/demos/backline).
+
+Changes made by qBraid:
+- Kept only the local CPU-to-CPU section; the remote GPU and FPGA sections are left out.
+- Loads the Steane decoder library from the installed Catalyst package instead of a
+  Catalyst source build.
+- Added a setup check, a two-logical-qubit run before the original three-qubit run,
+  timings, and short explanations.

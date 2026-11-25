@@ -1,0 +1,10 @@
+# Backline beta packages (September 2026). They are on GitHub releases, not PyPI.
+# Needs Python 3.12 on Linux, and a C compiler (gcc) on PATH for Catalyst's link step.
+--find-links https://github.com/PennyLaneAI/pennylane/releases/expanded_assets/v0.46.0b1
+--find-links https://github.com/PennyLaneAI/pennylane-lightning/releases/expanded_assets/v0.46.0b1
+--find-links https://github.com/PennyLaneAI/catalyst/releases/expanded_assets/v0.16.0b1
+pennylane==0.46.0b1
+pennylane-lightning==0.46.0b1
+pennylane-catalyst==0.16.0b1
+matplotlib
+ipykernel
