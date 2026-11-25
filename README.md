@@ -1,4 +1,4 @@
-[<img src="https://qbraid-static.s3.amazonaws.com/logos/Launch_on_qBraid_white.png" width="150">](https://account.qbraid.com?install-project=backline-demos)
+<a href="https://account.qbraid.com?install-project=backline-demos"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/qBraid/backline-demos/main/assets/launch-on-qbraid-dark.svg"><img src="https://raw.githubusercontent.com/qBraid/backline-demos/main/assets/launch-on-qbraid-light.svg" alt="Launch on qBraid" height="30"></picture></a>
 
 # Backline on qBraid
 
