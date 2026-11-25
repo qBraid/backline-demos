@@ -8,8 +8,8 @@ Backline lives inside [PennyLane](https://pennylane.ai) and [Catalyst](https://d
 
 ## Start here
 
-1. **Click the button above.** It opens the project page on qBraid. Choose **Launch** and pick a CPU instance with at least 4 vCPUs.
-2. **Let Lab set up.** It copies this repository and installs the **PennyLane + Backline** environment, which takes a minute or two.
+1. **Click the button above.** It opens the project page on qBraid. Choose **Launch** and pick an instance. The free 2 vCPU one is enough.
+2. **Let Lab set up.** It copies this repository and installs the **PennyLane + Backline** environment, which takes two or three minutes.
 3. **Open [`01_steane_ghz_cpu.ipynb`](./01_steane_ghz_cpu.ipynb)** and pick the **PennyLane + Backline** kernel.
 4. **Run the cells in order.** The first cell checks your setup.
 
@@ -19,7 +19,7 @@ Only want the files? [Copy the repository into Lab](https://account.qbraid.com?g
 
 | Notebook | What it does | Runs on |
 |---|---|---|
-| [`01_steane_ghz_cpu.ipynb`](./01_steane_ghz_cpu.ipynb) | Encodes a logical GHZ circuit in the Steane code. One CPU role runs the circuit, and a second decodes every error syndrome through Backline. | CPU. Two logical qubits: about half a minute for 10 shots, compile included, on 4 vCPUs. |
+| [`01_steane_ghz_cpu.ipynb`](./01_steane_ghz_cpu.ipynb) | Encodes a logical GHZ circuit in the Steane code. One CPU role runs the circuit, and a second decodes every error syndrome through Backline. | CPU. About a minute on the free 2 vCPU instance. The optional three-qubit run needs 4 vCPUs. |
 | Hierarchical decoding with NVIDIA Ising and PyMatching | Coming next. It needs Catalyst 0.16.0b2, which has no pre-built packages yet. | Planned for CPU and NVIDIA GPU |
 
 ## What's in the environment
