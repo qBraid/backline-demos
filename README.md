@@ -1,4 +1,4 @@
-[<img src="https://qbraid-static.s3.amazonaws.com/logos/Launch_on_qBraid_white.png" width="150">](https://account.qbraid.com?gitHubUrl=https://github.com/qBraid/backline-demos.git)
+[<img src="https://qbraid-static.s3.amazonaws.com/logos/Launch_on_qBraid_white.png" width="150">](https://account.qbraid.com?install-project=backline-demos)
 
 # Backline on qBraid
 
@@ -8,10 +8,12 @@ Backline lives inside [PennyLane](https://pennylane.ai) and [Catalyst](https://d
 
 ## Start here
 
-1. **Click the button above** and pick a CPU instance with at least 4 vCPUs.
-2. **Open [`01_steane_ghz_cpu.ipynb`](./01_steane_ghz_cpu.ipynb).**
-3. **Pick the kernel.** Choose **PennyLane + Backline** if it's in the list. If it isn't, install it from the Environments panel in Lab.
+1. **Click the button above.** It opens the project page on qBraid. Choose **Launch** and pick a CPU instance with at least 4 vCPUs.
+2. **Let Lab set up.** It copies this repository and installs the **PennyLane + Backline** environment, which takes a minute or two.
+3. **Open [`01_steane_ghz_cpu.ipynb`](./01_steane_ghz_cpu.ipynb)** and pick the **PennyLane + Backline** kernel.
 4. **Run the cells in order.** The first cell checks your setup.
+
+Only want the files? [Copy the repository into Lab](https://account.qbraid.com?gitHubUrl=https://github.com/qBraid/backline-demos.git) without the environment.
 
 ## Notebooks
 
