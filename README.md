@@ -8,7 +8,7 @@ Backline lives inside [PennyLane](https://pennylane.ai) and [Catalyst](https://d
 
 ## Start here
 
-1. **Click the button above** and pick a CPU instance.
+1. **Click the button above** and pick a CPU instance with at least 4 vCPUs.
 2. **Open [`01_steane_ghz_cpu.ipynb`](./01_steane_ghz_cpu.ipynb).**
 3. **Pick the kernel.** Choose **PennyLane + Backline** if it's in the list. If it isn't, install it from the Environments panel in Lab.
 4. **Run the cells in order.** The first cell checks your setup.
@@ -17,7 +17,7 @@ Backline lives inside [PennyLane](https://pennylane.ai) and [Catalyst](https://d
 
 | Notebook | What it does | Runs on |
 |---|---|---|
-| [`01_steane_ghz_cpu.ipynb`](./01_steane_ghz_cpu.ipynb) | Encodes a logical GHZ circuit in the Steane code. One CPU role runs the circuit, and a second decodes every error syndrome through Backline. | CPU |
+| [`01_steane_ghz_cpu.ipynb`](./01_steane_ghz_cpu.ipynb) | Encodes a logical GHZ circuit in the Steane code. One CPU role runs the circuit, and a second decodes every error syndrome through Backline. | CPU. Two logical qubits: about half a minute for 10 shots, compile included, on 4 vCPUs. |
 | Hierarchical decoding with NVIDIA Ising and PyMatching | Coming next. It needs Catalyst 0.16.0b2, which has no pre-built packages yet. | Planned for CPU and NVIDIA GPU |
 
 ## What's in the environment
